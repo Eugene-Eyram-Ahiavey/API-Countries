@@ -1,0 +1,16 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+    
+:root{
+--darkModeElem: hsl(209, 23%, 22%);
+--darkModeBack:hsl(207, 26%, 17%);
+--vdarkbluetext:hsl(200, 15%, 8%);
+--darkGrayLMI:hsl(0, 0%, 52%);
+--verLMB:hsl(0, 0%, 98%);
+--whiteDnL:hsl(0, 0%, 100%);
+--hompage:14px;
+--detailPage:16px;
+}

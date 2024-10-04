@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/detail.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <title>Country Details</title>
+
+
+    <script defer src="./scripts/detail.js"></script>
+    <script defer src = "./scripts/script.js"></script>
+</head>
+<body id="body">
+
+  <main>
+       <!-- <header>
+          <nav>
+            <h1>Where in the world?</h1>
+            <div class="modes" id="dark">
+                <ion-icon name="moon" class="bright"></ion-icon>
+                <p id="p-elem">Dark Mode</p>
+            </div>
+          </nav>
+       </header> -->
+       <header>
+        <nav>
+            <h1 id="where">Where in the world?</h1>
+            <div class="modes" id="dark">
+                <ion-icon name="moon" class="bright"></ion-icon>
+                <p id="p-elem">Dark Mode</p>
+            </div>
+        </nav>
+    </header>
+
+    <section class="main">
+
+      <button class="back" id="arrow-back">
+       <ion-icon name="arrow-back"></ion-icon>&nbsp;
+       Back
+       </button>
+
+       <div class="country-container">
+          <div class="grid" id="grid">
+            <div class="image-container" id="img-cont">
+            </div>
+            <div class="wrapper" id="wrapper">
+               <div class="country-detail" id="country-detail">
+                  <div class="first-detail" id="f-detail">
+                    <h3 class="country"></h3>
+                    <p class="native" ></p>
+                    <p class="populace"></p>
+                    <p class="reg"></p>
+                    <p class="sub-region"></p>
+                    <p class="cap"></p>
+                  </div>
+
+                  <div class="second-detail">
+                    <p id="top-level" class="tp"></p>
+                    <p id="currency" class="current"></p>
+                    <p id="languages" class="lang"></p>
+                   </div>
+
+                </div>
+            </div>
+
+          </div>
+       </div>
+  </section>
+</main>
+
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
